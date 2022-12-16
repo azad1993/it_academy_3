@@ -1,11 +1,11 @@
 
-import Usercv from './components/Usercv/Usercv.js'
+import Profile from './components/Profile/Profile.js'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Usercv />
+      <Profile />
     </div>
   );
 }
