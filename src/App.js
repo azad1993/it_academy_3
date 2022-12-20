@@ -1,11 +1,11 @@
 
-import Profile from './components/Profile/Profile.js'
+import UserLogin from './components/UserLogin/UserLogin.js'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Profile />
+      <UserLogin />
     </div>
   );
 }

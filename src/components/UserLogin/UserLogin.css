@@ -1,0 +1,14 @@
+input{
+    background-color: green;
+}
+
+input:focus{
+    background-color: red;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+}
