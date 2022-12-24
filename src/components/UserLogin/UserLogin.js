@@ -5,6 +5,8 @@ import './UserLogin.css'
 
 export default function UserLogin () {
 return(
+    
+    <form>
     <div>
         <br/>
         <label style={{margin:"10px"}}>Email <input type="email" onFocus={()=>{console.log("Yalnız .ru domenlərinə icazə verilir.")}} ></input></label>
@@ -13,6 +15,8 @@ return(
         <br/>
         <br/>
         <button>Login</button>
-    </div>
+</div>
+     </form>
+    
 )
 }
